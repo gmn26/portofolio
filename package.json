@@ -1,6 +1,5 @@
 {
   "name": "portofolio",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +9,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://gmn26.github.io/portofolio/",
+  "homepage": "https://gmn26.github.io/",
   "dependencies": {
     "gsap": "^3.12.5",
     "react": "^18.3.1",
