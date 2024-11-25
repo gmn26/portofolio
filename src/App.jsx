@@ -1,6 +1,6 @@
 import MouseTracker from "./hooks/mouseTracker";
 import useScrollPerSection from "./hooks/scrollPerSection";
-import Section1 from "./sections/section1";
+import Section1 from "./sections/Section1";
 import Section2 from "./sections/Section2";
 import Section3 from "./sections/Section3";
 
