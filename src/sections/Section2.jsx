@@ -1,69 +1,27 @@
-import Image1 from "./../assets/pict2.jpeg";
-import LogoReact from "./../component/LogoReact";
-import LogoLaravel from "../component/LogoLaravel";
+import { FaArrowRight } from "react-icons/fa";
 
-import { FaGithubSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { IoLogoCodepen } from "react-icons/io";
-import LogoExpress from "../component/LogoExpress";
-import LogoNext from "../component/LogoNext";
-import LogoFlutter from "../component/LogoFlutter";
-
-export default function Section1() {
-  return (
-    <section className="*:w-1/2">
-      <div className="flex flex-col pr-6">
-        <h2 className="mb-3">Ghazy Muhari Novrial</h2>
-        <h3>Web Developer</h3>
-        <br />
-        <p>
-          Hi! I am <b>web developer</b> that usually focus and love doing{" "}
-          <b>front end</b> development. I work as web developer since June 2023
-          with more than 1 years of learning before. With educational background
-          on science, specifically on math, i have a strong logic that help me
-          doing my job as web developer.
-        </p>
-        <p className="mt-3">
-          I also experienced on <b>back end</b> development. With knowledge of
-          API and Rest API concept, i also have capability doing <b>back end</b>{" "}
-          or making <b>Rest API</b>.
-        </p>
-        <br />
-        <div>
-          <h4 className="mb-3">My Social Media</h4>
-          <ul className="flex gap-3 *:flex *:items-center *:gap-1.5">
-            <li>
-              <FaGithubSquare />
-              <a href="">Github</a>
-            </li>
-            <li>
-              <FaLinkedin />
-              <a href="">LinkedIn</a>
-            </li>
-            <li>
-              <IoLogoCodepen />
-              <a href="">Codepen</a>
-            </li>
-          </ul>
+export default function Section2() {
+    return <section className="justify-stretch">
+        <div className="w-[45%]">
+            <h2 className="text-8xl">About <span className="text-orange-600">Me</span> ?</h2>
         </div>
-        <div className="mt-6">
-          <h4 className="mb-3">Tech Stack</h4>
-          <div className="flex gap-3 *:flex *:items-center *:gap-1.5 *:grayscale hover:*:grayscale-0 *:transition-all *:duration-1000">
-            <LogoReact />
-            <LogoLaravel />
-            <LogoExpress />
-            <LogoNext />
-            <LogoFlutter />
-          </div>
+        <div className="flex flex-col justify-between">
+            <div className="text-3xl">
+                <p>
+                    I am a programmer that currently focused on software development. Mainly i do web development but i also doing mobile development.
+                </p>
+                <br />
+                <p>
+                    For website development i could do both side, front-end and also back-end development or simply you can call it as a fullstack developer. I got 1+ year experience as web developer if it count base on when i do it as a professional. Here is some of my web project if you guys wanna <a className="flex items-center gap-3">see more <FaArrowRight size={24} className="translate-y-1" /></a>
+                </p>
+                <br />
+                <p>
+                    I also a mobile developer that more focus on development using flutter. With almost 1 year of experience, i already made some small scale project as my portfolio. Here is some of my <a className="flex items-center gap-3">mobile app project <FaArrowRight size={24} className="translate-y-1 " /></a>
+                </p>
+            </div>
+            <div>
+                <span className="text-3xl">Which one you got more interest?</span>
+            </div>
         </div>
-      </div>
-      <div className="h-2/3 rounded-full relative overflow-hidden">
-        <img
-          src={Image1}
-          className="absolute -top-72 2xl:-top-96"
-          alt="Foto Ghazy"
-        />
-      </div>
     </section>
-  );
 }

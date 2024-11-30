@@ -8,7 +8,7 @@ function App() {
   useScrollPerSection();
 
   return (
-    <main className="text-slate-100 flex w-fit *:w-screen *:px-16 *:py-12 *:h-screen *:flex *:items-center *:justify-center">
+    <main className="text-slate-100 flex w-fit *:w-screen *:px-16 *:py-12 *:h-screen *:flex">
       <MouseTracker />
       <Section1 />
       <Section2 />
