@@ -7,7 +7,7 @@ const MouseTracker = () => {
       const y = e.clientY;
       const gradientSize = "220px";
 
-      document.body.style.background = `radial-gradient(circle at ${x}px ${y}px, rgb(100,116,139),  rgb(15 23 42) ${gradientSize})`;
+      document.body.style.background = `radial-gradient(circle at ${x}px ${y}px, rgb(100,116,139),  rgb(10 10 10) ${gradientSize})`;
     };
 
     document.addEventListener("mousemove", handleMouseMove);
