@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Section2() {
     return <section className="justify-stretch gap-8">
         <div className="w-[45%]">
-            <h2 className="text-7xl 2xl:text-8xl">About <span className="text-orange-600">Me</span> ?</h2>
+            <h2 className="text-7xl">About <span className="text-orange-600">Me</span> ?</h2>
         </div>
         <div className="flex flex-col justify-between">
             <div className="text-xl 2xl:text-3xl">

@@ -8,10 +8,10 @@ export default function Section1() {
             <br />
             <a href="" className="flex items-center gap-1">Download CV <IoDownload /></a>
         </div>
-        <div className="w-2/3 text-7xl lg:text-9xl font-bold leading-tight uppercase">Hello, my name is {" "}
+        <div className="w-2/3 text-7xl font-bold leading-tight uppercase">Hello, my name is {" "}
             <span className="relative text-black font-normal">
                 Ghazy
-                <div className="bg-orange-600 absolute top-6 bottom-4 left-0 right-0 lg:top-10 lg:bottom-7 lg:left-1 lg:right-1 -z-10 " />
+                <div className="bg-orange-600 absolute top-6 bottom-4 left-0 right-0 2xl:top-10 2xl:bottom-7 lg:left-1 lg:right-1 -z-10 " />
             </span>
             {" "}
             Web Developer from Indonesia.
