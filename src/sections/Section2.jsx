@@ -1,27 +1,62 @@
-import { FaArrowRight } from "react-icons/fa";
-
 export default function Section2() {
-    return <section className="justify-stretch gap-8">
-        <div className="w-[45%]">
-            <h2 className="text-7xl">About <span className="text-orange-600">Me</span> ?</h2>
-        </div>
-        <div className="flex flex-col justify-between">
-            <div className="text-xl 2xl:text-3xl">
-                <p>
-                    I am a programmer that currently focused on software development. Mainly i do web development but i also doing mobile development.
-                </p>
-                <br />
-                <p>
-                    For website development i could do both side, front-end and also back-end development or simply you can call it as a fullstack developer. I got 1+ year experience as web developer if it count base on when i do it as a professional. Here is some of my web project if you guys wanna <a className="flex items-center gap-3">see more <FaArrowRight size={24} className="translate-y-1" /></a>
-                </p>
-                <br />
-                <p>
-                    I also a mobile developer that more focus on development using flutter. With almost 1 year of experience, i already made some small scale project as my portfolio. Here is some of my <a className="flex items-center gap-3">mobile app project <FaArrowRight size={24} className="translate-y-1 " /></a>
-                </p>
+    return (
+        <section className="min-h-screen mx-4 py-9 border-b">
+            <div className="flex">
+                <div className="w-full ml-auto flex gap-2 *:w-1/2">
+                    <div>
+                        <div className="mb-10">
+                            <span className="text-gray-500">About Me</span>
+                        </div>
+                        <div className="flex flex-col gap-4">
+                            <p>
+                                I{"'"}m a software engineer based in Indonesia. Mainly work on
+                                building website, web app, and mobile app. With more than 2+
+                                work experiences, I{"'"}ve worked with some IT company and also
+                                tech teams to develop intuitive, high-performing and beneficial
+                                products using modern technologies.
+                            </p>
+                            <p>
+                                I have capabilities to work as Front-End Developer, Back-End
+                                Developer and also Mobile Developer. Always to keep my code as
+                                clean as possible, and got higher maintainability rate.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="mb-10">
+                            <span className="text-gray-500">What i do</span>
+                        </div>
+                        <div className="flex flex-col gap-4">
+                            <p>
+                                I specialize in full-stack development, with an emphasis on
+                                creating responsive and dynamic applications. On the web, I
+                                build fast, interactive interfaces using tools like React or Angular and
+                                Tailwind CSS. On mobile, I develop cross-platform apps using
+                                React Native or Flutter, ensuring native performance and a consistent user
+                                experience. I’m also experienced in backend development, working
+                                with APIs and databases using laravel, express JS, spring, and .NET.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <span className="text-xl 2xl:text-3xl">Which one you got more interest?</span>
+            <div className="hidden md:flex mt-40">
+                <div className="w-1/2 flex items-end gap-4">
+                    <div className="h-32 w-32 bg-white/50" />
+                    <div className="flex flex-col items-center gap-4">
+                        <h2>Current Work</h2>
+                        <div className="flex gap-4">
+                            <div className="h-16 w-16 bg-white/50" />
+                            <div className="h-16 w-16 bg-white/50" />
+                            <div className="h-16 w-16 bg-white/50" />
+                            <div className="h-16 w-16 bg-white/50" />
+                        </div>
+                    </div>
+                </div>
+                <div className="w-1/2">
+                    <h2>Project Name</h2>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    );
 }

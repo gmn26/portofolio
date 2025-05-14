@@ -1,37 +1,49 @@
-import LogoHTML5 from "../component/LogoHTML";
-import LogoCSS from "../component/LogoCSS";
-import LogoJavascript from "../component/LogoJavascript";
-import LogoBootstrap from "../component/LogoBootstrap";
-import LogoTailwind from "../component/LogoTailwind";
-import LogoReact from "../component/LogoReact";
-import LogoNext from "../component/LogoNext";
-import LogoFlutter from "../component/LogoFlutter";
-import LogoPHP from "../component/LogoPHP";
-import LogoExpress from "../component/LogoExpress";
-import LogoMySQL from "../component/LogoMySQL";
-
 export default function Section3() {
   return (
-    <section className="justify-between *:w-full *:flex *:flex-col *:text-center">
-      <div className="border-r">
-        <h2>Front End Tech Stack</h2>
-        <div className="grid gap-y-8 grid-cols-3 justify-items-center *:w-20 mt-6">
-          <LogoHTML5 />
-          <LogoCSS />
-          <LogoJavascript />
-          <LogoBootstrap />
-          <LogoTailwind />
-          <LogoReact />
-          <LogoNext />
-          <LogoFlutter />
-        </div>
-      </div>
-      <div className="border-l">
-        <h2>Back End Tech Stack</h2>
-        <div className="grid gap-y-8 grid-cols-3 justify-items-center *:w-20 mt-6">
-          <LogoPHP />
-          <LogoMySQL />
-          <LogoExpress />
+    <section className="min-h-screen mx-4 py-9 border-b">
+      <div className="flex">
+        <div className="w-full md:w-1/2 ml-auto flex flex-col gap-2">
+          <div className="mb-10">
+            <span className="text-gray-500">My Career</span>
+          </div>
+          {/* No 1 */}
+          <div className="flex flex-col gap-4">
+            <div className="flex items-end justify-between">
+              <p className="text-lg font-semibold border-b w-fit">
+                Freelance Frontend Developer
+              </p>
+              <p className="text-gray-500">
+                January 2025 - Now
+              </p>
+            </div>
+            <p className="-mt-3">PT POP PROPERTI INDONESIA</p>
+            <ul className="list-disc ml-8">
+              <li>Develope new features for dashboard at cornerstone app, focusing development on front-end side using react.js</li>
+              <li>Implement new features for cornerstone{"'"} mobile app to adapt for new features added inside dashboard app using react native</li>
+              <li>Testing new features both on dashboard and mobile app</li>
+              <li>Fixing bugs that happen while deleopment and other bugs that need to be fixed before launching new features</li>
+            </ul>
+          </div>
+          {/* No 1 */}
+          {/* No 2 */}
+          <div className="flex flex-col gap-4 mt-4">
+            <div className="flex items-end justify-between">
+              <p className="text-lg font-semibold border-b w-fit">
+                Web Programmer and Course Mentor
+              </p>
+              <p className="text-gray-500">
+                October 2023 - December 2024
+              </p>
+            </div>
+            <p className="-mt-3">CV. MEDIATAMA WEB INDONESIA & LPK. MEDIATAMA WEB INDONESIA</p>
+            <ul className="list-disc ml-8">
+              <li>Proficient in developing and maintaining web application using Laravel, with a focus on integratin new features, optimizing functionalities, and implementing user interfaces based on client request</li>
+              <li>Guide and teach interns to upgrade skill base on they point of interest and education background</li>
+              <li>Teach students to code web application based on company curriculum using HTML, CSS, Bootsrap, PHP, and MySQL</li>
+              <li>Teach students to code mobile application Flutter</li>
+            </ul>
+          </div>
+          {/* No 2 */}
         </div>
       </div>
     </section>
