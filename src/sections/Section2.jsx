@@ -2,7 +2,7 @@ export default function Section2() {
     return (
         <section className="min-h-screen mx-4 py-9 border-b">
             <div className="flex">
-                <div className="w-full ml-auto flex gap-2 *:w-1/2">
+                <div className="w-full md:w-1/2 ml-auto flex gap-2 *:w-1/2">
                     <div>
                         <div className="mb-10">
                             <span className="text-gray-500">About Me</span>
