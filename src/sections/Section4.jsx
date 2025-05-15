@@ -36,53 +36,53 @@ export default function Section4() {
                     </p>
                 ))}
             </div>
-            <div className="relative flex justify-between gap-2 *:w-16">
-                <div className={`floating-effect ${hoveredIndex == 1 && "blur"}`}>
+            <div className="hidden md:block relative min-h-96 *:absolute *:w-16">
+                <div className={`absolute w-16 top-[5%] left-[5%] rotate-[3deg] floating-effect ${hoveredIndex == 1 && "blur"}`}>
                     <img src={react} alt="React" />
                 </div>
-                <div className={`floating-effect ${hoveredIndex == 1 && "blur"}`}>
+                <div className={`absolute w-16 top-[15%] left-[25%] -rotate-[8deg] floating-effect ${hoveredIndex == 1 && "blur"}`}>
                     <img src={typescript} alt="Type Script" />
                 </div>
-                <div className={`floating-effect ${hoveredIndex == 1 && "blur"}`}>
+                <div className={`absolute w-16 top-[10%] right-[10%] rotate-[5deg] floating-effect ${hoveredIndex == 1 && "blur"}`}>
                     <img src={tailwind} alt="Tailwind" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 1 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 top-[30%] left-[10%] -rotate-[12deg] floating-effect ${(hoveredIndex == 1 || hoveredIndex == 2) && "blur"}`}>
                     <img src={bootstrap} alt="Bootstrap" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 1 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 top-[35%] right-[15%] rotate-[10deg] floating-effect ${(hoveredIndex == 1 || hoveredIndex == 2) && "blur"}`}>
                     <img src={angular} alt="Angular" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 1 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 top-[25%] left-[50%] rotate-[6deg] floating-effect ${(hoveredIndex == 1 || hoveredIndex == 2) && "blur"}`}>
                     <img src={next} alt="Next" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 top-[50%] left-[20%] -rotate-[9deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
                     <img src={laravel} alt="Laravel" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 top-[48%] right-[10%] rotate-[7deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
                     <img src={php} alt="PHP" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 top-[60%] left-[35%] -rotate-[6deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
                     <img src={express} alt="Express" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 top-[65%] right-[20%] rotate-[6deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
                     <img src={spring} alt="Spring" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 top-[55%] left-[60%] -rotate-[11deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
                     <img src={mysql} alt="MySQL" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 top-[72%] right-[30%] rotate-[11deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
                     <img src={node} alt="Node" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 bottom-[20%] left-[10%] -rotate-[4deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
                     <img src={postgresql} alt="PostgreSQL" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 bottom-[25%] right-[5%] rotate-[9deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
                     <img src={mongodb} alt="MongoDB" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
+                <div className={`absolute w-16 bottom-[10%] left-[30%] -rotate-[5deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 2) && "blur"}`}>
                     <img src={prisma} alt="Prisma" />
                 </div>
-                <div className={`floating-effect ${(hoveredIndex == 0 || hoveredIndex == 1) && "blur"}`}>
+                <div className={`absolute w-16 bottom-[5%] right-[20%] rotate-[7deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 1) && "blur"}`}>
                     <img src={flutter} alt="Flutter" />
                 </div>
             </div>
