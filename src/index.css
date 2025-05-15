@@ -44,3 +44,20 @@ h5 {
   font-weight: 400;
   line-height: 100%;
 }
+
+.floating-effect {
+  animation-name: floatingAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes floatingAnimation {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
