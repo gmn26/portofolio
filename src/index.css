@@ -61,3 +61,39 @@ h5 {
     transform: translateY(10px);
   }
 }
+
+/* marquee effect */
+
+.marquee-text {
+  overflow: clip;
+}
+
+.marquee-text {
+  display: flex;
+  padding-left: 4.8rem;
+  gap: 4.8rem;
+  width: max-content;
+}
+
+.marquee-text p {
+  border: 1px solid white;
+  background-color: #141414;
+  border-radius: 999px;
+  padding: 1rem 2.5rem;
+}
+
+.marquee-to-left {
+  animation: marquee-move-text var(--speed, 15s) linear infinite
+    var(--direction, forwards);
+}
+
+.marquee-to-right {
+  animation: marquee-move-text var(--speed, 15s) linear infinite
+    var(--direction, reverse);
+}
+
+@keyframes marquee-move-text {
+  to {
+    transform: translateX(-50%);
+  }
+}

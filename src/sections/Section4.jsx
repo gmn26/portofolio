@@ -23,6 +23,8 @@ export default function Section4() {
     return (
         <section className="min-h-screen mx-4 py-9 border-b">
             <h2 className="text-center text-7xl md:text-9xl">TECH STACK</h2>
+
+            {/* Large Breakpoint */}
             <div className="hidden md:flex justify-between font-bold mt-16 text-5xl lg:text-6xl xl:text-7xl">
                 {items.map((text, index) => (
                     <p
@@ -84,6 +86,47 @@ export default function Section4() {
                 </div>
                 <div className={`absolute w-16 bottom-[5%] right-[20%] rotate-[7deg] floating-effect ${(hoveredIndex == 0 || hoveredIndex == 1) && "blur"}`}>
                     <img src={flutter} alt="Flutter" />
+                </div>
+            </div>
+
+            {/* Small Breakpoint */}
+            <div className="mt-16 flex flex-col gap-6 md:hidden">
+                <div>
+                    <h3 className="text-3xl">Front End (Web and Mobile)</h3>
+                    <div className="marquee-text">
+                        <div className="marquee-text marquee-to-left mt-6 *:w-20">
+                            <img src={react} alt="React" />
+                            <img src={typescript} alt="Typescript" />
+                            <img src={tailwind} alt="Tailwind" />
+                            <img src={bootstrap} alt="Bootstrap" />
+                            <img src={angular} alt="Angular" />
+                            <img src={next} alt="Next" />
+                            <img src={flutter} alt="Flutter" />
+                            <img aria-hidden={true} src={react} alt="React" />
+                            <img aria-hidden={true} src={typescript} alt="Typescript" />
+                            <img aria-hidden={true} src={tailwind} alt="Tailwind" />
+                            <img aria-hidden={true} src={bootstrap} alt="Bootstrap" />
+                            <img aria-hidden={true} src={angular} alt="Angular" />
+                            <img aria-hidden={true} src={next} alt="Next" />
+                            <img aria-hidden={true} src={flutter} alt="Flutter" />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 className="text-3xl text-end">Back End</h3>
+                    <div className="marquee-text">
+                        <div className="marquee-text marquee-to-right mt-6 *:w-20">
+                            <img src={laravel} alt="Laravel" />
+                            <img src={php} alt="PHP" />
+                            <img src={express} alt="Express" />
+                            <img src={spring} alt="Spring" />
+                            <img src={mysql} alt="MySQL" />
+                            <img src={node} alt="Node" />
+                            <img src={postgresql} alt="PostgreSQL" />
+                            <img src={mongodb} alt="MongoDB" />
+                            <img src={prisma} alt="Prisma" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
